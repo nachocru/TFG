@@ -100,6 +100,7 @@ AFRAME.registerComponent('mainfigure', {
     }
   }
   
+  
     // Si añadimos los elementos de la siguiente manera:
     // Cómo podemos detectar los clicks?
     // var node = document.createElement("a-entity");  
