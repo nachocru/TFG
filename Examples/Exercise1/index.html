@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <meta charset="utf-8" />
+    <title>Color Change</title>
+    <meta name="description" content="Change" />
+    <script src="https://aframe.io/releases/0.5.0/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-event-set-component@3.0.3/dist/aframe-event-set-component.min.js"></script>
+    <script src="selector.js"></script>
+    <script src="https://unpkg.com/aframe-event-set-component@5/dist/aframe-event-set-component.min.js"></script>
+    <script src="https://unpkg.com/aframe-layout-component@5.3.0/dist/aframe-layout-component.min.js"></script>
+    <script src="https://unpkg.com/aframe-template-component@3.2.1/dist/aframe-template-component.min.js"></script>
+    <script src="https://unpkg.com/aframe-proxy-event-component@2.1.0/dist/aframe-proxy-event-component.min.js"></script>
+    <!-- Image link template to be reused. -->
+    <script id="link" type="text/html">
+      <a-entity class="link"
+        geometry="primitive: plane; height: 1; width: 1"
+        material="shader: flat; src: ${thumb}"
+        event-set__mouseenter="scale: 1.2 1.2 1"
+        event-set__mouseleave="scale: 1 1 1"
+        sound="on: click; src: #click-sound">
+      </a-entity>
+    </script>
+  </head>
+  <body>
+    <a-scene>
+      <a-assets>
+        <img
+          id="groundTexture"
+          src="https://cdn.aframe.io/a-painter/images/floor.jpg"
+        />
+        <img
+          id="skyTexture"
+          src="https://cdn.aframe.io/a-painter/images/sky.jpg"
+        />
+        <img id="red-thumb" crossorigin="anonymous" src="https://pbs.twimg.com/profile_images/932211484/cuadrado_rojo_400x400.png">
+        <img id="green-thumb" crossorigin="anonymous" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Solid_green.svg/2048px-Solid_green.svg.png">
+        <img id="yellow-thumb" crossorigin="anonymous" src="https://previews.123rf.com/images/sergio34/sergio341502/sergio34150200533/36979199-dise%C3%B1ado-fondo-de-acuarela-abstracta-elemento-de-dise%C3%B1o-cuadrado-amarillo-acuarela-.jpg">
+        <img id="blue-thumb" crossorigin="anonymous" src="https://m.media-amazon.com/images/I/41neB5zDrTL._AC_SX522_.jpg">
+        <img id="cube-thumb" crossorigin="anonymous" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9RmSnmbju57iYLT4HMuN-xZ-4Tiv-A_b4VA&usqp=CAU">
+        <img id="sphere-thumb" crossorigin="anonymous" src="https://img.freepik.com/vector-gratis/bola-azul-ilustracion_177761-152.jpg?size=338&ext=jpg">
+        <img id="cone-thumb" crossorigin="anonymous" src="https://thumbs.dreamstime.com/b/sombrero-del-partido-verde-de-la-fiesta-cumplea%C3%B1os-cortado-en-blanco-147836378.jpg">
+        <audio id="click-sound" crossorigin="anonymous" src="https://cdn.aframe.io/360-image-gallery-boilerplate/audio/click.ogg"></audio>
+      </a-assets>
+
+      <a-cylinder
+        id="ground"
+        src="#groundTexture"
+        radius="30"
+        height="0.1"
+      ></a-cylinder>
+
+      <!-- 360-degree image. -->
+      <a-sky
+        id="background"
+        src="#skyTexture"
+        theta-length="90"
+        radius="30"
+      ></a-sky>
+
+      <a-entity editor></a-entity>
+      <a-entity mainfigure="width: 0.5; height: 0.25; depth: 1; color: red"
+            position="0 2 -5" id="mainFigure"></a-entity>
+
+      <a-entity colorselector id="links" layout="type: line; margin: 1.5; align: center" position="-6 1 1" rotation="0 45 0"></a-entity>
+
+      <a-entity id="red" template="src: #link" data-src="#red" data-thumb="#red-thumb"></a-entity>
+      <a-entity id="yellow" template="src: #link" data-src="#yellow" data-thumb="#yellow-thumb"></a-entity>
+      <a-entity id="green" template="src: #link" data-src="#green" data-thumb="#green-thumb"></a-entity>
+      <a-entity id="blue" template="src: #link" data-src="#blue" data-thumb="#blue-thumb"></a-entity>
+
+      <a-entity figureselector id="figures" layout="type: line; margin: 1.5; align: center" position="2 1 -3" rotation="0 -45 0"></a-entity>
+
+      <a-entity id="cube" template="src: #link" data-src="#cube" data-thumb="#cube-thumb"></a-entity>
+      <a-entity id="sphere" template="src: #link" data-src="#sphere" data-thumb="#sphere-thumb"></a-entity>
+      <a-entity id="cone" template="src: #link" data-src="#cone" data-thumb="#cone-thumb"></a-entity>
+
+      <a-camera position="0 0 5">
+        <a-cursor
+        event-set__mouseenter="_event: mouseenter; color: white"
+        event-set__mouseleave="_event: mouseleave; color: black"
+        raycaster="objects: .link"></a-cursor>
+      </a-camera>
+    </a-scene>
+  </body>
+</html>
