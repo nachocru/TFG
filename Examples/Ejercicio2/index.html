@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!-- Simple scene which include a simple figure component -->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Simple scene with figure</title>
+    <meta name="description" content="Exercise2" />
+    <script src="https://aframe.io/releases/0.5.0/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-event-set-component@3.0.3/dist/aframe-event-set-component.min.js"></script>
+    <script src="selector.js"></script>
+    <script src="https://unpkg.com/aframe-event-set-component@5/dist/aframe-event-set-component.min.js"></script>
+    <script src="https://unpkg.com/aframe-layout-component@5.3.0/dist/aframe-layout-component.min.js"></script>
+    <script src="https://unpkg.com/aframe-template-component@3.2.1/dist/aframe-template-component.min.js"></script>
+    <script src="https://unpkg.com/aframe-proxy-event-component@2.1.0/dist/aframe-proxy-event-component.min.js"></script>
+    <!-- Image link template to be reused. -->
+  </head>
+  <body>
+    <a-scene>
+      <a-assets>
+        <img
+          id="groundTexture"
+          src="https://cdn.aframe.io/a-painter/images/floor.jpg"
+        />
+        <img
+          id="skyTexture"
+          src="https://cdn.aframe.io/a-painter/images/sky.jpg"
+        />
+      </a-assets>
+
+      <!-- <a-cylinder
+        id="ground"
+        src="#groundTexture"
+        radius="30"
+        height="0.1"
+      ></a-cylinder> -->
+
+      <!-- 360-degree image. -->
+      <a-sky
+        id="background"
+        src="#skyTexture"
+        theta-length="90"
+        radius="30"
+      ></a-sky>
+
+      <a-entity basic-scene></a-entity>
+
+      <a-camera position="0 0 6">
+        <a-cursor
+        event-set__mouseenter="_event: mouseenter; color: white"
+        event-set__mouseleave="_event: mouseleave; color: black"
+        raycaster="objects: .link"></a-cursor>
+      </a-camera>
+    </a-scene>
+  </body>
+</html>
