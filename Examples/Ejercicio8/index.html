@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!-- Prueba para mostrar componentes al hacer click y editar el color y la geometría del componente-->
+<!-- Se incluyen animaciones en los componentes de edición -->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Ejercicio 8</title>
+    <meta name="description" content="Exercise4" />
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-event-set-component@3.0.3/dist/aframe-event-set-component.min.js"></script>
+    <script src="index.js"></script>
+    <script src="https://unpkg.com/aframe-layout-component@5.3.0/dist/aframe-layout-component.min.js"></script>
+    <script src="https://unpkg.com/aframe-template-component@3.2.1/dist/aframe-template-component.min.js"></script>
+    <script src="https://unpkg.com/aframe-proxy-event-component@2.1.0/dist/aframe-proxy-event-component.min.js"></script>
+    <!-- Image link template to be reused. -->
+  </head>
+  <body>
+    <a-scene>
+      <a-assets>
+        <img
+          id="groundTexture"
+          src="https://cdn.aframe.io/a-painter/images/floor.jpg"
+        />
+        <img
+          id="skyTexture"
+          src="https://cdn.aframe.io/a-painter/images/sky.jpg"
+        />
+      </a-assets>
+
+      <a-cylinder
+        id="ground"
+        src="#groundTexture"
+        radius="30"
+        height="0.1"
+      ></a-cylinder>
+
+      <!-- 360-degree image. -->
+      <a-sky
+        id="background"
+        src="#skyTexture"
+        theta-length="90"
+        radius="30"
+      ></a-sky>
+
+      <a-entity id="escena" cursor="rayOrigin:mouse" figure>
+      </a-entity>
+
+      <a-camera position="0 1 6">
+      </a-camera>
+    </a-scene>
+  </body>
+</html>
