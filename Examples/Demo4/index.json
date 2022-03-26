@@ -1,0 +1,1762 @@
+[
+  {
+    "_index": "packets-2008-02-23",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "1",
+          "frame.time": "Feb 23, 2008 10:37:23.192896000 CET",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1203759443.192896000",
+          "frame.time_delta": "0.000000000",
+          "frame.time_delta_displayed": "0.000000000",
+          "frame.time_relative": "0.000000000",
+          "frame.number": "1",
+          "frame.len": "42",
+          "frame.cap_len": "42",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:arp",
+          "frame.coloring_rule.name": "ARP",
+          "frame.coloring_rule.string": "arp"
+        },
+        "eth": {
+          "eth.dst": "ff:ff:ff:ff:ff:ff",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "Broadcast",
+            "eth.dst.oui": "16777215",
+            "eth.addr": "ff:ff:ff:ff:ff:ff",
+            "eth.addr_resolved": "Broadcast",
+            "eth.addr.oui": "16777215",
+            "eth.dst.lg": "1",
+            "eth.lg": "1",
+            "eth.dst.ig": "1",
+            "eth.ig": "1"
+          },
+          "eth.src": "8e:d5:68:dd:a2:ce",
+          "eth.src_tree": {
+            "eth.src_resolved": "8e:d5:68:dd:a2:ce",
+            "eth.src.oui": "9360744",
+            "eth.addr": "8e:d5:68:dd:a2:ce",
+            "eth.addr_resolved": "8e:d5:68:dd:a2:ce",
+            "eth.addr.oui": "9360744",
+            "eth.src.lg": "1",
+            "eth.lg": "1",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x00000806"
+        },
+        "arp": {
+          "arp.hw.type": "1",
+          "arp.proto.type": "0x00000800",
+          "arp.hw.size": "6",
+          "arp.proto.size": "4",
+          "arp.opcode": "1",
+          "arp.src.hw_mac": "8e:d5:68:dd:a2:ce",
+          "arp.src.proto_ipv4": "10.0.0.2",
+          "arp.dst.hw_mac": "00:00:00:00:00:00",
+          "arp.dst.proto_ipv4": "10.0.0.1"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2008-02-23",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "1",
+          "frame.time": "Feb 23, 2008 10:37:23.193444000 CET",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1203759443.193444000",
+          "frame.time_delta": "0.000548000",
+          "frame.time_delta_displayed": "0.000548000",
+          "frame.time_relative": "0.000548000",
+          "frame.number": "2",
+          "frame.len": "42",
+          "frame.cap_len": "42",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:arp",
+          "frame.coloring_rule.name": "ARP",
+          "frame.coloring_rule.string": "arp"
+        },
+        "eth": {
+          "eth.dst": "8e:d5:68:dd:a2:ce",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "8e:d5:68:dd:a2:ce",
+            "eth.dst.oui": "9360744",
+            "eth.addr": "8e:d5:68:dd:a2:ce",
+            "eth.addr_resolved": "8e:d5:68:dd:a2:ce",
+            "eth.addr.oui": "9360744",
+            "eth.dst.lg": "1",
+            "eth.lg": "1",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "de:02:94:29:fc:d4",
+          "eth.src_tree": {
+            "eth.src_resolved": "de:02:94:29:fc:d4",
+            "eth.src.oui": "14549652",
+            "eth.addr": "de:02:94:29:fc:d4",
+            "eth.addr_resolved": "de:02:94:29:fc:d4",
+            "eth.addr.oui": "14549652",
+            "eth.src.lg": "1",
+            "eth.lg": "1",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x00000806"
+        },
+        "arp": {
+          "arp.hw.type": "1",
+          "arp.proto.type": "0x00000800",
+          "arp.hw.size": "6",
+          "arp.proto.size": "4",
+          "arp.opcode": "2",
+          "arp.src.hw_mac": "de:02:94:29:fc:d4",
+          "arp.src.proto_ipv4": "10.0.0.1",
+          "arp.dst.hw_mac": "8e:d5:68:dd:a2:ce",
+          "arp.dst.proto_ipv4": "10.0.0.2"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2008-02-23",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "1",
+          "frame.time": "Feb 23, 2008 10:37:23.193030000 CET",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1203759443.193030000",
+          "frame.time_delta": "-0.000414000",
+          "frame.time_delta_displayed": "-0.000414000",
+          "frame.time_relative": "0.000134000",
+          "frame.number": "3",
+          "frame.len": "74",
+          "frame.cap_len": "74",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:tcp",
+          "frame.coloring_rule.name": "TCP SYN/FIN",
+          "frame.coloring_rule.string": "tcp.flags & 0x02 || tcp.flags.fin == 1"
+        },
+        "eth": {
+          "eth.dst": "de:02:94:29:fc:d4",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "de:02:94:29:fc:d4",
+            "eth.dst.oui": "14549652",
+            "eth.addr": "de:02:94:29:fc:d4",
+            "eth.addr_resolved": "de:02:94:29:fc:d4",
+            "eth.addr.oui": "14549652",
+            "eth.dst.lg": "1",
+            "eth.lg": "1",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "8e:d5:68:dd:a2:ce",
+          "eth.src_tree": {
+            "eth.src_resolved": "8e:d5:68:dd:a2:ce",
+            "eth.src.oui": "9360744",
+            "eth.addr": "8e:d5:68:dd:a2:ce",
+            "eth.addr_resolved": "8e:d5:68:dd:a2:ce",
+            "eth.addr.oui": "9360744",
+            "eth.src.lg": "1",
+            "eth.lg": "1",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x00000800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00000000",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "60",
+          "ip.id": "0x000016f5",
+          "ip.flags": "0x00004000",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "64",
+          "ip.proto": "6",
+          "ip.checksum": "0x00000ec4",
+          "ip.checksum.status": "2",
+          "ip.src": "10.0.0.2",
+          "ip.addr": "10.0.0.2",
+          "ip.src_host": "10.0.0.2",
+          "ip.host": "10.0.0.2",
+          "ip.dst": "11.0.0.2",
+          "ip.addr": "11.0.0.2",
+          "ip.dst_host": "11.0.0.2",
+          "ip.host": "11.0.0.2"
+        },
+        "tcp": {
+          "tcp.srcport": "60709",
+          "tcp.dstport": "34000",
+          "tcp.port": "60709",
+          "tcp.port": "34000",
+          "tcp.stream": "0",
+          "tcp.len": "0",
+          "tcp.seq": "0",
+          "tcp.seq_raw": "1367801698",
+          "tcp.nxtseq": "1",
+          "tcp.ack": "0",
+          "tcp.ack_raw": "0",
+          "tcp.hdr_len": "40",
+          "tcp.flags": "0x00000002",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ns": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ecn": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "0",
+            "tcp.flags.push": "0",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "1",
+            "tcp.flags.syn_tree": {
+              "_ws.expert": {
+                "tcp.connection.syn": "",
+                "_ws.expert.message": "Connection establish request (SYN): server port 34000",
+                "_ws.expert.severity": "2097152",
+                "_ws.expert.group": "33554432"
+              }
+            },
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "··········S·"
+          },
+          "tcp.window_size_value": "5840",
+          "tcp.window_size": "5840",
+          "tcp.checksum": "0x000072bb",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "tcp.options": "02:04:05:b4:01:01:08:0a:00:01:e9:97:00:00:00:00:01:03:03:01",
+          "tcp.options_tree": {
+            "tcp.options.mss": "02:04:05:b4",
+            "tcp.options.mss_tree": {
+              "tcp.option_kind": "2",
+              "tcp.option_len": "4",
+              "tcp.options.mss_val": "1460"
+            },
+            "tcp.options.nop": "01",
+            "tcp.options.nop_tree": {
+              "tcp.option_kind": "1"
+            },
+            "tcp.options.nop": "01",
+            "tcp.options.nop_tree": {
+              "tcp.option_kind": "1"
+            },
+            "tcp.options.timestamp": "08:0a:00:01:e9:97:00:00:00:00",
+            "tcp.options.timestamp_tree": {
+              "tcp.option_kind": "8",
+              "tcp.option_len": "10",
+              "tcp.options.timestamp.tsval": "125335",
+              "tcp.options.timestamp.tsecr": "0"
+            },
+            "tcp.options.nop": "01",
+            "tcp.options.nop_tree": {
+              "tcp.option_kind": "1"
+            },
+            "tcp.options.wscale": "03:03:01",
+            "tcp.options.wscale_tree": {
+              "tcp.option_kind": "3",
+              "tcp.option_len": "3",
+              "tcp.options.wscale.shift": "1",
+              "tcp.options.wscale.multiplier": "2"
+            }
+          },
+          "Timestamps": {
+            "tcp.time_relative": "0.000000000",
+            "tcp.time_delta": "0.000000000"
+          }
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2008-02-23",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "1",
+          "frame.time": "Feb 23, 2008 10:37:23.202814000 CET",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1203759443.202814000",
+          "frame.time_delta": "0.009784000",
+          "frame.time_delta_displayed": "0.009784000",
+          "frame.time_relative": "0.009918000",
+          "frame.number": "4",
+          "frame.len": "74",
+          "frame.cap_len": "74",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:tcp",
+          "frame.coloring_rule.name": "TCP SYN/FIN",
+          "frame.coloring_rule.string": "tcp.flags & 0x02 || tcp.flags.fin == 1"
+        },
+        "eth": {
+          "eth.dst": "8e:d5:68:dd:a2:ce",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "8e:d5:68:dd:a2:ce",
+            "eth.dst.oui": "9360744",
+            "eth.addr": "8e:d5:68:dd:a2:ce",
+            "eth.addr_resolved": "8e:d5:68:dd:a2:ce",
+            "eth.addr.oui": "9360744",
+            "eth.dst.lg": "1",
+            "eth.lg": "1",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "de:02:94:29:fc:d4",
+          "eth.src_tree": {
+            "eth.src_resolved": "de:02:94:29:fc:d4",
+            "eth.src.oui": "14549652",
+            "eth.addr": "de:02:94:29:fc:d4",
+            "eth.addr_resolved": "de:02:94:29:fc:d4",
+            "eth.addr.oui": "14549652",
+            "eth.src.lg": "1",
+            "eth.lg": "1",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x00000800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00000000",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "60",
+          "ip.id": "0x00000000",
+          "ip.flags": "0x00004000",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "63",
+          "ip.proto": "6",
+          "ip.checksum": "0x000026b9",
+          "ip.checksum.status": "2",
+          "ip.src": "11.0.0.2",
+          "ip.addr": "11.0.0.2",
+          "ip.src_host": "11.0.0.2",
+          "ip.host": "11.0.0.2",
+          "ip.dst": "10.0.0.2",
+          "ip.addr": "10.0.0.2",
+          "ip.dst_host": "10.0.0.2",
+          "ip.host": "10.0.0.2"
+        },
+        "tcp": {
+          "tcp.srcport": "34000",
+          "tcp.dstport": "60709",
+          "tcp.port": "34000",
+          "tcp.port": "60709",
+          "tcp.stream": "0",
+          "tcp.len": "0",
+          "tcp.seq": "0",
+          "tcp.seq_raw": "1363273423",
+          "tcp.nxtseq": "1",
+          "tcp.ack": "1",
+          "tcp.ack_raw": "1367801699",
+          "tcp.hdr_len": "40",
+          "tcp.flags": "0x00000012",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ns": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ecn": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "0",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "1",
+            "tcp.flags.syn_tree": {
+              "_ws.expert": {
+                "tcp.connection.sack": "",
+                "_ws.expert.message": "Connection establish acknowledge (SYN+ACK): server port 34000",
+                "_ws.expert.severity": "2097152",
+                "_ws.expert.group": "33554432"
+              }
+            },
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······A··S·"
+          },
+          "tcp.window_size_value": "5792",
+          "tcp.window_size": "5792",
+          "tcp.checksum": "0x00005140",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "tcp.options": "02:04:05:b4:01:01:08:0a:00:01:e9:87:00:01:e9:97:01:03:03:01",
+          "tcp.options_tree": {
+            "tcp.options.mss": "02:04:05:b4",
+            "tcp.options.mss_tree": {
+              "tcp.option_kind": "2",
+              "tcp.option_len": "4",
+              "tcp.options.mss_val": "1460"
+            },
+            "tcp.options.nop": "01",
+            "tcp.options.nop_tree": {
+              "tcp.option_kind": "1"
+            },
+            "tcp.options.nop": "01",
+            "tcp.options.nop_tree": {
+              "tcp.option_kind": "1"
+            },
+            "tcp.options.timestamp": "08:0a:00:01:e9:87:00:01:e9:97",
+            "tcp.options.timestamp_tree": {
+              "tcp.option_kind": "8",
+              "tcp.option_len": "10",
+              "tcp.options.timestamp.tsval": "125319",
+              "tcp.options.timestamp.tsecr": "125335"
+            },
+            "tcp.options.nop": "01",
+            "tcp.options.nop_tree": {
+              "tcp.option_kind": "1"
+            },
+            "tcp.options.wscale": "03:03:01",
+            "tcp.options.wscale_tree": {
+              "tcp.option_kind": "3",
+              "tcp.option_len": "3",
+              "tcp.options.wscale.shift": "1",
+              "tcp.options.wscale.multiplier": "2"
+            }
+          },
+          "tcp.analysis": {
+            "tcp.analysis.acks_frame": "3",
+            "tcp.analysis.ack_rtt": "0.009784000",
+            "tcp.analysis.initial_rtt": "0.010217000"
+          },
+          "Timestamps": {
+            "tcp.time_relative": "0.009784000",
+            "tcp.time_delta": "0.009784000"
+          }
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2008-02-23",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "1",
+          "frame.time": "Feb 23, 2008 10:37:23.203247000 CET",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1203759443.203247000",
+          "frame.time_delta": "0.000433000",
+          "frame.time_delta_displayed": "0.000433000",
+          "frame.time_relative": "0.010351000",
+          "frame.number": "5",
+          "frame.len": "66",
+          "frame.cap_len": "66",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:tcp",
+          "frame.coloring_rule.name": "TCP",
+          "frame.coloring_rule.string": "tcp"
+        },
+        "eth": {
+          "eth.dst": "de:02:94:29:fc:d4",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "de:02:94:29:fc:d4",
+            "eth.dst.oui": "14549652",
+            "eth.addr": "de:02:94:29:fc:d4",
+            "eth.addr_resolved": "de:02:94:29:fc:d4",
+            "eth.addr.oui": "14549652",
+            "eth.dst.lg": "1",
+            "eth.lg": "1",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "8e:d5:68:dd:a2:ce",
+          "eth.src_tree": {
+            "eth.src_resolved": "8e:d5:68:dd:a2:ce",
+            "eth.src.oui": "9360744",
+            "eth.addr": "8e:d5:68:dd:a2:ce",
+            "eth.addr_resolved": "8e:d5:68:dd:a2:ce",
+            "eth.addr.oui": "9360744",
+            "eth.src.lg": "1",
+            "eth.lg": "1",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x00000800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00000000",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "52",
+          "ip.id": "0x000016f6",
+          "ip.flags": "0x00004000",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "64",
+          "ip.proto": "6",
+          "ip.checksum": "0x00000ecb",
+          "ip.checksum.status": "2",
+          "ip.src": "10.0.0.2",
+          "ip.addr": "10.0.0.2",
+          "ip.src_host": "10.0.0.2",
+          "ip.host": "10.0.0.2",
+          "ip.dst": "11.0.0.2",
+          "ip.addr": "11.0.0.2",
+          "ip.dst_host": "11.0.0.2",
+          "ip.host": "11.0.0.2"
+        },
+        "tcp": {
+          "tcp.srcport": "60709",
+          "tcp.dstport": "34000",
+          "tcp.port": "60709",
+          "tcp.port": "34000",
+          "tcp.stream": "0",
+          "tcp.len": "0",
+          "tcp.seq": "1",
+          "tcp.seq_raw": "1367801699",
+          "tcp.nxtseq": "1",
+          "tcp.ack": "1",
+          "tcp.ack_raw": "1363273424",
+          "tcp.hdr_len": "32",
+          "tcp.flags": "0x00000010",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ns": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ecn": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "0",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······A····"
+          },
+          "tcp.window_size_value": "2920",
+          "tcp.window_size": "5840",
+          "tcp.window_size_scalefactor": "2",
+          "tcp.checksum": "0x00008837",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "tcp.options": "01:01:08:0a:00:01:e9:9d:00:01:e9:87",
+          "tcp.options_tree": {
+            "tcp.options.nop": "01",
+            "tcp.options.nop_tree": {
+              "tcp.option_kind": "1"
+            },
+            "tcp.options.nop": "01",
+            "tcp.options.nop_tree": {
+              "tcp.option_kind": "1"
+            },
+            "tcp.options.timestamp": "08:0a:00:01:e9:9d:00:01:e9:87",
+            "tcp.options.timestamp_tree": {
+              "tcp.option_kind": "8",
+              "tcp.option_len": "10",
+              "tcp.options.timestamp.tsval": "125341",
+              "tcp.options.timestamp.tsecr": "125319"
+            }
+          },
+          "tcp.analysis": {
+            "tcp.analysis.acks_frame": "4",
+            "tcp.analysis.ack_rtt": "0.000433000",
+            "tcp.analysis.initial_rtt": "0.010217000"
+          },
+          "Timestamps": {
+            "tcp.time_relative": "0.010217000",
+            "tcp.time_delta": "0.000433000"
+          }
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2008-02-23",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "1",
+          "frame.time": "Feb 23, 2008 10:37:25.155209000 CET",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1203759445.155209000",
+          "frame.time_delta": "1.951962000",
+          "frame.time_delta_displayed": "1.951962000",
+          "frame.time_relative": "1.962313000",
+          "frame.number": "6",
+          "frame.len": "71",
+          "frame.cap_len": "71",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:tcp:data",
+          "frame.coloring_rule.name": "TCP",
+          "frame.coloring_rule.string": "tcp"
+        },
+        "eth": {
+          "eth.dst": "de:02:94:29:fc:d4",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "de:02:94:29:fc:d4",
+            "eth.dst.oui": "14549652",
+            "eth.addr": "de:02:94:29:fc:d4",
+            "eth.addr_resolved": "de:02:94:29:fc:d4",
+            "eth.addr.oui": "14549652",
+            "eth.dst.lg": "1",
+            "eth.lg": "1",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "8e:d5:68:dd:a2:ce",
+          "eth.src_tree": {
+            "eth.src_resolved": "8e:d5:68:dd:a2:ce",
+            "eth.src.oui": "9360744",
+            "eth.addr": "8e:d5:68:dd:a2:ce",
+            "eth.addr_resolved": "8e:d5:68:dd:a2:ce",
+            "eth.addr.oui": "9360744",
+            "eth.src.lg": "1",
+            "eth.lg": "1",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x00000800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00000000",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "57",
+          "ip.id": "0x000016f7",
+          "ip.flags": "0x00004000",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "64",
+          "ip.proto": "6",
+          "ip.checksum": "0x00000ec5",
+          "ip.checksum.status": "2",
+          "ip.src": "10.0.0.2",
+          "ip.addr": "10.0.0.2",
+          "ip.src_host": "10.0.0.2",
+          "ip.host": "10.0.0.2",
+          "ip.dst": "11.0.0.2",
+          "ip.addr": "11.0.0.2",
+          "ip.dst_host": "11.0.0.2",
+          "ip.host": "11.0.0.2"
+        },
+        "tcp": {
+          "tcp.srcport": "60709",
+          "tcp.dstport": "34000",
+          "tcp.port": "60709",
+          "tcp.port": "34000",
+          "tcp.stream": "0",
+          "tcp.len": "5",
+          "tcp.seq": "1",
+          "tcp.seq_raw": "1367801699",
+          "tcp.nxtseq": "6",
+          "tcp.ack": "1",
+          "tcp.ack_raw": "1363273424",
+          "tcp.hdr_len": "32",
+          "tcp.flags": "0x00000018",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ns": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ecn": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "1",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······AP···"
+          },
+          "tcp.window_size_value": "2920",
+          "tcp.window_size": "5840",
+          "tcp.window_size_scalefactor": "2",
+          "tcp.checksum": "0x0000a895",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "tcp.options": "01:01:08:0a:00:01:ea:61:00:01:e9:87",
+          "tcp.options_tree": {
+            "tcp.options.nop": "01",
+            "tcp.options.nop_tree": {
+              "tcp.option_kind": "1"
+            },
+            "tcp.options.nop": "01",
+            "tcp.options.nop_tree": {
+              "tcp.option_kind": "1"
+            },
+            "tcp.options.timestamp": "08:0a:00:01:ea:61:00:01:e9:87",
+            "tcp.options.timestamp_tree": {
+              "tcp.option_kind": "8",
+              "tcp.option_len": "10",
+              "tcp.options.timestamp.tsval": "125537",
+              "tcp.options.timestamp.tsecr": "125319"
+            }
+          },
+          "tcp.analysis": {
+            "tcp.analysis.initial_rtt": "0.010217000",
+            "tcp.analysis.bytes_in_flight": "5",
+            "tcp.analysis.push_bytes_sent": "5"
+          },
+          "Timestamps": {
+            "tcp.time_relative": "1.962179000",
+            "tcp.time_delta": "1.951962000"
+          },
+          "tcp.payload": "68:6f:6c:61:0a"
+        },
+        "data": {
+          "data.data": "68:6f:6c:61:0a",
+          "data.len": "5"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2008-02-23",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "1",
+          "frame.time": "Feb 23, 2008 10:37:25.156226000 CET",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1203759445.156226000",
+          "frame.time_delta": "0.001017000",
+          "frame.time_delta_displayed": "0.001017000",
+          "frame.time_relative": "1.963330000",
+          "frame.number": "7",
+          "frame.len": "66",
+          "frame.cap_len": "66",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:tcp",
+          "frame.coloring_rule.name": "TCP",
+          "frame.coloring_rule.string": "tcp"
+        },
+        "eth": {
+          "eth.dst": "8e:d5:68:dd:a2:ce",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "8e:d5:68:dd:a2:ce",
+            "eth.dst.oui": "9360744",
+            "eth.addr": "8e:d5:68:dd:a2:ce",
+            "eth.addr_resolved": "8e:d5:68:dd:a2:ce",
+            "eth.addr.oui": "9360744",
+            "eth.dst.lg": "1",
+            "eth.lg": "1",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "de:02:94:29:fc:d4",
+          "eth.src_tree": {
+            "eth.src_resolved": "de:02:94:29:fc:d4",
+            "eth.src.oui": "14549652",
+            "eth.addr": "de:02:94:29:fc:d4",
+            "eth.addr_resolved": "de:02:94:29:fc:d4",
+            "eth.addr.oui": "14549652",
+            "eth.src.lg": "1",
+            "eth.lg": "1",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x00000800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00000000",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "52",
+          "ip.id": "0x00000f59",
+          "ip.flags": "0x00004000",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "63",
+          "ip.proto": "6",
+          "ip.checksum": "0x00001768",
+          "ip.checksum.status": "2",
+          "ip.src": "11.0.0.2",
+          "ip.addr": "11.0.0.2",
+          "ip.src_host": "11.0.0.2",
+          "ip.host": "11.0.0.2",
+          "ip.dst": "10.0.0.2",
+          "ip.addr": "10.0.0.2",
+          "ip.dst_host": "10.0.0.2",
+          "ip.host": "10.0.0.2"
+        },
+        "tcp": {
+          "tcp.srcport": "34000",
+          "tcp.dstport": "60709",
+          "tcp.port": "34000",
+          "tcp.port": "60709",
+          "tcp.stream": "0",
+          "tcp.len": "0",
+          "tcp.seq": "1",
+          "tcp.seq_raw": "1363273424",
+          "tcp.nxtseq": "1",
+          "tcp.ack": "6",
+          "tcp.ack_raw": "1367801704",
+          "tcp.hdr_len": "32",
+          "tcp.flags": "0x00000010",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ns": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ecn": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "0",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······A····"
+          },
+          "tcp.window_size_value": "2896",
+          "tcp.window_size": "5792",
+          "tcp.window_size_scalefactor": "2",
+          "tcp.checksum": "0x000086c1",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "tcp.options": "01:01:08:0a:00:01:ea:4c:00:01:ea:61",
+          "tcp.options_tree": {
+            "tcp.options.nop": "01",
+            "tcp.options.nop_tree": {
+              "tcp.option_kind": "1"
+            },
+            "tcp.options.nop": "01",
+            "tcp.options.nop_tree": {
+              "tcp.option_kind": "1"
+            },
+            "tcp.options.timestamp": "08:0a:00:01:ea:4c:00:01:ea:61",
+            "tcp.options.timestamp_tree": {
+              "tcp.option_kind": "8",
+              "tcp.option_len": "10",
+              "tcp.options.timestamp.tsval": "125516",
+              "tcp.options.timestamp.tsecr": "125537"
+            }
+          },
+          "tcp.analysis": {
+            "tcp.analysis.acks_frame": "6",
+            "tcp.analysis.ack_rtt": "0.001017000",
+            "tcp.analysis.initial_rtt": "0.010217000"
+          },
+          "Timestamps": {
+            "tcp.time_relative": "1.963196000",
+            "tcp.time_delta": "0.001017000"
+          }
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2008-02-23",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "1",
+          "frame.time": "Feb 23, 2008 10:37:26.444652000 CET",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1203759446.444652000",
+          "frame.time_delta": "1.288426000",
+          "frame.time_delta_displayed": "1.288426000",
+          "frame.time_relative": "3.251756000",
+          "frame.number": "8",
+          "frame.len": "72",
+          "frame.cap_len": "72",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:tcp:data",
+          "frame.coloring_rule.name": "TCP",
+          "frame.coloring_rule.string": "tcp"
+        },
+        "eth": {
+          "eth.dst": "de:02:94:29:fc:d4",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "de:02:94:29:fc:d4",
+            "eth.dst.oui": "14549652",
+            "eth.addr": "de:02:94:29:fc:d4",
+            "eth.addr_resolved": "de:02:94:29:fc:d4",
+            "eth.addr.oui": "14549652",
+            "eth.dst.lg": "1",
+            "eth.lg": "1",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "8e:d5:68:dd:a2:ce",
+          "eth.src_tree": {
+            "eth.src_resolved": "8e:d5:68:dd:a2:ce",
+            "eth.src.oui": "9360744",
+            "eth.addr": "8e:d5:68:dd:a2:ce",
+            "eth.addr_resolved": "8e:d5:68:dd:a2:ce",
+            "eth.addr.oui": "9360744",
+            "eth.src.lg": "1",
+            "eth.lg": "1",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x00000800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00000000",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "58",
+          "ip.id": "0x000016f8",
+          "ip.flags": "0x00004000",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "64",
+          "ip.proto": "6",
+          "ip.checksum": "0x00000ec3",
+          "ip.checksum.status": "2",
+          "ip.src": "10.0.0.2",
+          "ip.addr": "10.0.0.2",
+          "ip.src_host": "10.0.0.2",
+          "ip.host": "10.0.0.2",
+          "ip.dst": "11.0.0.2",
+          "ip.addr": "11.0.0.2",
+          "ip.dst_host": "11.0.0.2",
+          "ip.host": "11.0.0.2"
+        },
+        "tcp": {
+          "tcp.srcport": "60709",
+          "tcp.dstport": "34000",
+          "tcp.port": "60709",
+          "tcp.port": "34000",
+          "tcp.stream": "0",
+          "tcp.len": "6",
+          "tcp.seq": "6",
+          "tcp.seq_raw": "1367801704",
+          "tcp.nxtseq": "12",
+          "tcp.ack": "1",
+          "tcp.ack_raw": "1363273424",
+          "tcp.hdr_len": "32",
+          "tcp.flags": "0x00000018",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ns": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ecn": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "1",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······AP···"
+          },
+          "tcp.window_size_value": "2920",
+          "tcp.window_size": "5840",
+          "tcp.window_size_scalefactor": "2",
+          "tcp.checksum": "0x0000483c",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "tcp.options": "01:01:08:0a:00:01:ea:e2:00:01:ea:4c",
+          "tcp.options_tree": {
+            "tcp.options.nop": "01",
+            "tcp.options.nop_tree": {
+              "tcp.option_kind": "1"
+            },
+            "tcp.options.nop": "01",
+            "tcp.options.nop_tree": {
+              "tcp.option_kind": "1"
+            },
+            "tcp.options.timestamp": "08:0a:00:01:ea:e2:00:01:ea:4c",
+            "tcp.options.timestamp_tree": {
+              "tcp.option_kind": "8",
+              "tcp.option_len": "10",
+              "tcp.options.timestamp.tsval": "125666",
+              "tcp.options.timestamp.tsecr": "125516"
+            }
+          },
+          "tcp.analysis": {
+            "tcp.analysis.initial_rtt": "0.010217000",
+            "tcp.analysis.bytes_in_flight": "6",
+            "tcp.analysis.push_bytes_sent": "6"
+          },
+          "Timestamps": {
+            "tcp.time_relative": "3.251622000",
+            "tcp.time_delta": "1.288426000"
+          },
+          "tcp.payload": "61:64:69:6f:73:0a"
+        },
+        "data": {
+          "data.data": "61:64:69:6f:73:0a",
+          "data.len": "6"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2008-02-23",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "1",
+          "frame.time": "Feb 23, 2008 10:37:26.445201000 CET",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1203759446.445201000",
+          "frame.time_delta": "0.000549000",
+          "frame.time_delta_displayed": "0.000549000",
+          "frame.time_relative": "3.252305000",
+          "frame.number": "9",
+          "frame.len": "66",
+          "frame.cap_len": "66",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:tcp",
+          "frame.coloring_rule.name": "TCP",
+          "frame.coloring_rule.string": "tcp"
+        },
+        "eth": {
+          "eth.dst": "8e:d5:68:dd:a2:ce",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "8e:d5:68:dd:a2:ce",
+            "eth.dst.oui": "9360744",
+            "eth.addr": "8e:d5:68:dd:a2:ce",
+            "eth.addr_resolved": "8e:d5:68:dd:a2:ce",
+            "eth.addr.oui": "9360744",
+            "eth.dst.lg": "1",
+            "eth.lg": "1",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "de:02:94:29:fc:d4",
+          "eth.src_tree": {
+            "eth.src_resolved": "de:02:94:29:fc:d4",
+            "eth.src.oui": "14549652",
+            "eth.addr": "de:02:94:29:fc:d4",
+            "eth.addr_resolved": "de:02:94:29:fc:d4",
+            "eth.addr.oui": "14549652",
+            "eth.src.lg": "1",
+            "eth.lg": "1",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x00000800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00000000",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "52",
+          "ip.id": "0x00000f5a",
+          "ip.flags": "0x00004000",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "63",
+          "ip.proto": "6",
+          "ip.checksum": "0x00001767",
+          "ip.checksum.status": "2",
+          "ip.src": "11.0.0.2",
+          "ip.addr": "11.0.0.2",
+          "ip.src_host": "11.0.0.2",
+          "ip.host": "11.0.0.2",
+          "ip.dst": "10.0.0.2",
+          "ip.addr": "10.0.0.2",
+          "ip.dst_host": "10.0.0.2",
+          "ip.host": "10.0.0.2"
+        },
+        "tcp": {
+          "tcp.srcport": "34000",
+          "tcp.dstport": "60709",
+          "tcp.port": "34000",
+          "tcp.port": "60709",
+          "tcp.stream": "0",
+          "tcp.len": "0",
+          "tcp.seq": "1",
+          "tcp.seq_raw": "1363273424",
+          "tcp.nxtseq": "1",
+          "tcp.ack": "12",
+          "tcp.ack_raw": "1367801710",
+          "tcp.hdr_len": "32",
+          "tcp.flags": "0x00000010",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ns": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ecn": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "0",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······A····"
+          },
+          "tcp.window_size_value": "2896",
+          "tcp.window_size": "5792",
+          "tcp.window_size_scalefactor": "2",
+          "tcp.checksum": "0x000085b9",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "tcp.options": "01:01:08:0a:00:01:ea:cd:00:01:ea:e2",
+          "tcp.options_tree": {
+            "tcp.options.nop": "01",
+            "tcp.options.nop_tree": {
+              "tcp.option_kind": "1"
+            },
+            "tcp.options.nop": "01",
+            "tcp.options.nop_tree": {
+              "tcp.option_kind": "1"
+            },
+            "tcp.options.timestamp": "08:0a:00:01:ea:cd:00:01:ea:e2",
+            "tcp.options.timestamp_tree": {
+              "tcp.option_kind": "8",
+              "tcp.option_len": "10",
+              "tcp.options.timestamp.tsval": "125645",
+              "tcp.options.timestamp.tsecr": "125666"
+            }
+          },
+          "tcp.analysis": {
+            "tcp.analysis.acks_frame": "8",
+            "tcp.analysis.ack_rtt": "0.000549000",
+            "tcp.analysis.initial_rtt": "0.010217000"
+          },
+          "Timestamps": {
+            "tcp.time_relative": "3.252171000",
+            "tcp.time_delta": "0.000549000"
+          }
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2008-02-23",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "1",
+          "frame.time": "Feb 23, 2008 10:37:27.363806000 CET",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1203759447.363806000",
+          "frame.time_delta": "0.918605000",
+          "frame.time_delta_displayed": "0.918605000",
+          "frame.time_relative": "4.170910000",
+          "frame.number": "10",
+          "frame.len": "66",
+          "frame.cap_len": "66",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:tcp",
+          "frame.coloring_rule.name": "TCP SYN/FIN",
+          "frame.coloring_rule.string": "tcp.flags & 0x02 || tcp.flags.fin == 1"
+        },
+        "eth": {
+          "eth.dst": "de:02:94:29:fc:d4",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "de:02:94:29:fc:d4",
+            "eth.dst.oui": "14549652",
+            "eth.addr": "de:02:94:29:fc:d4",
+            "eth.addr_resolved": "de:02:94:29:fc:d4",
+            "eth.addr.oui": "14549652",
+            "eth.dst.lg": "1",
+            "eth.lg": "1",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "8e:d5:68:dd:a2:ce",
+          "eth.src_tree": {
+            "eth.src_resolved": "8e:d5:68:dd:a2:ce",
+            "eth.src.oui": "9360744",
+            "eth.addr": "8e:d5:68:dd:a2:ce",
+            "eth.addr_resolved": "8e:d5:68:dd:a2:ce",
+            "eth.addr.oui": "9360744",
+            "eth.src.lg": "1",
+            "eth.lg": "1",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x00000800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00000000",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "52",
+          "ip.id": "0x000016f9",
+          "ip.flags": "0x00004000",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "64",
+          "ip.proto": "6",
+          "ip.checksum": "0x00000ec8",
+          "ip.checksum.status": "2",
+          "ip.src": "10.0.0.2",
+          "ip.addr": "10.0.0.2",
+          "ip.src_host": "10.0.0.2",
+          "ip.host": "10.0.0.2",
+          "ip.dst": "11.0.0.2",
+          "ip.addr": "11.0.0.2",
+          "ip.dst_host": "11.0.0.2",
+          "ip.host": "11.0.0.2"
+        },
+        "tcp": {
+          "tcp.srcport": "60709",
+          "tcp.dstport": "34000",
+          "tcp.port": "60709",
+          "tcp.port": "34000",
+          "tcp.stream": "0",
+          "tcp.len": "0",
+          "tcp.seq": "12",
+          "tcp.seq_raw": "1367801710",
+          "tcp.nxtseq": "13",
+          "tcp.ack": "1",
+          "tcp.ack_raw": "1363273424",
+          "tcp.hdr_len": "32",
+          "tcp.flags": "0x00000011",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ns": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ecn": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "0",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "1",
+            "tcp.flags.fin_tree": {
+              "_ws.expert": {
+                "tcp.connection.fin": "",
+                "_ws.expert.message": "Connection finish (FIN)",
+                "_ws.expert.severity": "2097152",
+                "_ws.expert.group": "33554432"
+              }
+            },
+            "tcp.flags.str": "·······A···F"
+          },
+          "tcp.window_size_value": "2920",
+          "tcp.window_size": "5840",
+          "tcp.window_size_scalefactor": "2",
+          "tcp.checksum": "0x00008544",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "tcp.options": "01:01:08:0a:00:01:eb:3e:00:01:ea:cd",
+          "tcp.options_tree": {
+            "tcp.options.nop": "01",
+            "tcp.options.nop_tree": {
+              "tcp.option_kind": "1"
+            },
+            "tcp.options.nop": "01",
+            "tcp.options.nop_tree": {
+              "tcp.option_kind": "1"
+            },
+            "tcp.options.timestamp": "08:0a:00:01:eb:3e:00:01:ea:cd",
+            "tcp.options.timestamp_tree": {
+              "tcp.option_kind": "8",
+              "tcp.option_len": "10",
+              "tcp.options.timestamp.tsval": "125758",
+              "tcp.options.timestamp.tsecr": "125645"
+            }
+          },
+          "Timestamps": {
+            "tcp.time_relative": "4.170776000",
+            "tcp.time_delta": "0.918605000"
+          }
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2008-02-23",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "1",
+          "frame.time": "Feb 23, 2008 10:37:27.365232000 CET",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1203759447.365232000",
+          "frame.time_delta": "0.001426000",
+          "frame.time_delta_displayed": "0.001426000",
+          "frame.time_relative": "4.172336000",
+          "frame.number": "11",
+          "frame.len": "66",
+          "frame.cap_len": "66",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:tcp",
+          "frame.coloring_rule.name": "TCP SYN/FIN",
+          "frame.coloring_rule.string": "tcp.flags & 0x02 || tcp.flags.fin == 1"
+        },
+        "eth": {
+          "eth.dst": "8e:d5:68:dd:a2:ce",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "8e:d5:68:dd:a2:ce",
+            "eth.dst.oui": "9360744",
+            "eth.addr": "8e:d5:68:dd:a2:ce",
+            "eth.addr_resolved": "8e:d5:68:dd:a2:ce",
+            "eth.addr.oui": "9360744",
+            "eth.dst.lg": "1",
+            "eth.lg": "1",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "de:02:94:29:fc:d4",
+          "eth.src_tree": {
+            "eth.src_resolved": "de:02:94:29:fc:d4",
+            "eth.src.oui": "14549652",
+            "eth.addr": "de:02:94:29:fc:d4",
+            "eth.addr_resolved": "de:02:94:29:fc:d4",
+            "eth.addr.oui": "14549652",
+            "eth.src.lg": "1",
+            "eth.lg": "1",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x00000800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00000000",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "52",
+          "ip.id": "0x00000f5b",
+          "ip.flags": "0x00004000",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "63",
+          "ip.proto": "6",
+          "ip.checksum": "0x00001766",
+          "ip.checksum.status": "2",
+          "ip.src": "11.0.0.2",
+          "ip.addr": "11.0.0.2",
+          "ip.src_host": "11.0.0.2",
+          "ip.host": "11.0.0.2",
+          "ip.dst": "10.0.0.2",
+          "ip.addr": "10.0.0.2",
+          "ip.dst_host": "10.0.0.2",
+          "ip.host": "10.0.0.2"
+        },
+        "tcp": {
+          "tcp.srcport": "34000",
+          "tcp.dstport": "60709",
+          "tcp.port": "34000",
+          "tcp.port": "60709",
+          "tcp.stream": "0",
+          "tcp.len": "0",
+          "tcp.seq": "1",
+          "tcp.seq_raw": "1363273424",
+          "tcp.nxtseq": "2",
+          "tcp.ack": "13",
+          "tcp.ack_raw": "1367801711",
+          "tcp.hdr_len": "32",
+          "tcp.flags": "0x00000011",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ns": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ecn": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "0",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "1",
+            "tcp.flags.fin_tree": {
+              "_ws.expert": {
+                "tcp.connection.fin": "",
+                "_ws.expert.message": "Connection finish (FIN)",
+                "_ws.expert.severity": "2097152",
+                "_ws.expert.group": "33554432"
+              }
+            },
+            "tcp.flags.str": "·······A···F"
+          },
+          "tcp.window_size_value": "2896",
+          "tcp.window_size": "5792",
+          "tcp.window_size_scalefactor": "2",
+          "tcp.checksum": "0x000084ff",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "tcp.options": "01:01:08:0a:00:01:eb:29:00:01:eb:3e",
+          "tcp.options_tree": {
+            "tcp.options.nop": "01",
+            "tcp.options.nop_tree": {
+              "tcp.option_kind": "1"
+            },
+            "tcp.options.nop": "01",
+            "tcp.options.nop_tree": {
+              "tcp.option_kind": "1"
+            },
+            "tcp.options.timestamp": "08:0a:00:01:eb:29:00:01:eb:3e",
+            "tcp.options.timestamp_tree": {
+              "tcp.option_kind": "8",
+              "tcp.option_len": "10",
+              "tcp.options.timestamp.tsval": "125737",
+              "tcp.options.timestamp.tsecr": "125758"
+            }
+          },
+          "tcp.analysis": {
+            "tcp.analysis.acks_frame": "10",
+            "tcp.analysis.ack_rtt": "0.001426000",
+            "tcp.analysis.initial_rtt": "0.010217000"
+          },
+          "Timestamps": {
+            "tcp.time_relative": "4.172202000",
+            "tcp.time_delta": "0.001426000"
+          }
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2008-02-23",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "1",
+          "frame.time": "Feb 23, 2008 10:37:27.365507000 CET",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1203759447.365507000",
+          "frame.time_delta": "0.000275000",
+          "frame.time_delta_displayed": "0.000275000",
+          "frame.time_relative": "4.172611000",
+          "frame.number": "12",
+          "frame.len": "66",
+          "frame.cap_len": "66",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:tcp",
+          "frame.coloring_rule.name": "TCP",
+          "frame.coloring_rule.string": "tcp"
+        },
+        "eth": {
+          "eth.dst": "de:02:94:29:fc:d4",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "de:02:94:29:fc:d4",
+            "eth.dst.oui": "14549652",
+            "eth.addr": "de:02:94:29:fc:d4",
+            "eth.addr_resolved": "de:02:94:29:fc:d4",
+            "eth.addr.oui": "14549652",
+            "eth.dst.lg": "1",
+            "eth.lg": "1",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "8e:d5:68:dd:a2:ce",
+          "eth.src_tree": {
+            "eth.src_resolved": "8e:d5:68:dd:a2:ce",
+            "eth.src.oui": "9360744",
+            "eth.addr": "8e:d5:68:dd:a2:ce",
+            "eth.addr_resolved": "8e:d5:68:dd:a2:ce",
+            "eth.addr.oui": "9360744",
+            "eth.src.lg": "1",
+            "eth.lg": "1",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x00000800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00000000",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "52",
+          "ip.id": "0x000016fa",
+          "ip.flags": "0x00004000",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "64",
+          "ip.proto": "6",
+          "ip.checksum": "0x00000ec7",
+          "ip.checksum.status": "2",
+          "ip.src": "10.0.0.2",
+          "ip.addr": "10.0.0.2",
+          "ip.src_host": "10.0.0.2",
+          "ip.host": "10.0.0.2",
+          "ip.dst": "11.0.0.2",
+          "ip.addr": "11.0.0.2",
+          "ip.dst_host": "11.0.0.2",
+          "ip.host": "11.0.0.2"
+        },
+        "tcp": {
+          "tcp.srcport": "60709",
+          "tcp.dstport": "34000",
+          "tcp.port": "60709",
+          "tcp.port": "34000",
+          "tcp.stream": "0",
+          "tcp.len": "0",
+          "tcp.seq": "13",
+          "tcp.seq_raw": "1367801711",
+          "tcp.nxtseq": "13",
+          "tcp.ack": "2",
+          "tcp.ack_raw": "1363273425",
+          "tcp.hdr_len": "32",
+          "tcp.flags": "0x00000010",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ns": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ecn": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "0",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······A····"
+          },
+          "tcp.window_size_value": "2920",
+          "tcp.window_size": "5840",
+          "tcp.window_size_scalefactor": "2",
+          "tcp.checksum": "0x000084e7",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "tcp.options": "01:01:08:0a:00:01:eb:3e:00:01:eb:29",
+          "tcp.options_tree": {
+            "tcp.options.nop": "01",
+            "tcp.options.nop_tree": {
+              "tcp.option_kind": "1"
+            },
+            "tcp.options.nop": "01",
+            "tcp.options.nop_tree": {
+              "tcp.option_kind": "1"
+            },
+            "tcp.options.timestamp": "08:0a:00:01:eb:3e:00:01:eb:29",
+            "tcp.options.timestamp_tree": {
+              "tcp.option_kind": "8",
+              "tcp.option_len": "10",
+              "tcp.options.timestamp.tsval": "125758",
+              "tcp.options.timestamp.tsecr": "125737"
+            }
+          },
+          "tcp.analysis": {
+            "tcp.analysis.acks_frame": "11",
+            "tcp.analysis.ack_rtt": "0.000275000",
+            "tcp.analysis.initial_rtt": "0.010217000"
+          },
+          "Timestamps": {
+            "tcp.time_relative": "4.172477000",
+            "tcp.time_delta": "0.000275000"
+          }
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2008-02-23",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "1",
+          "frame.time": "Feb 23, 2008 10:37:28.182190000 CET",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1203759448.182190000",
+          "frame.time_delta": "0.816683000",
+          "frame.time_delta_displayed": "0.816683000",
+          "frame.time_relative": "4.989294000",
+          "frame.number": "13",
+          "frame.len": "42",
+          "frame.cap_len": "42",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:arp",
+          "frame.coloring_rule.name": "ARP",
+          "frame.coloring_rule.string": "arp"
+        },
+        "eth": {
+          "eth.dst": "8e:d5:68:dd:a2:ce",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "8e:d5:68:dd:a2:ce",
+            "eth.dst.oui": "9360744",
+            "eth.addr": "8e:d5:68:dd:a2:ce",
+            "eth.addr_resolved": "8e:d5:68:dd:a2:ce",
+            "eth.addr.oui": "9360744",
+            "eth.dst.lg": "1",
+            "eth.lg": "1",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "de:02:94:29:fc:d4",
+          "eth.src_tree": {
+            "eth.src_resolved": "de:02:94:29:fc:d4",
+            "eth.src.oui": "14549652",
+            "eth.addr": "de:02:94:29:fc:d4",
+            "eth.addr_resolved": "de:02:94:29:fc:d4",
+            "eth.addr.oui": "14549652",
+            "eth.src.lg": "1",
+            "eth.lg": "1",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x00000806"
+        },
+        "arp": {
+          "arp.hw.type": "1",
+          "arp.proto.type": "0x00000800",
+          "arp.hw.size": "6",
+          "arp.proto.size": "4",
+          "arp.opcode": "1",
+          "arp.src.hw_mac": "de:02:94:29:fc:d4",
+          "arp.src.proto_ipv4": "10.0.0.1",
+          "arp.dst.hw_mac": "00:00:00:00:00:00",
+          "arp.dst.proto_ipv4": "10.0.0.2"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2008-02-23",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "1",
+          "frame.time": "Feb 23, 2008 10:37:28.183090000 CET",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1203759448.183090000",
+          "frame.time_delta": "0.000900000",
+          "frame.time_delta_displayed": "0.000900000",
+          "frame.time_relative": "4.990194000",
+          "frame.number": "14",
+          "frame.len": "42",
+          "frame.cap_len": "42",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:arp",
+          "frame.coloring_rule.name": "ARP",
+          "frame.coloring_rule.string": "arp"
+        },
+        "eth": {
+          "eth.dst": "de:02:94:29:fc:d4",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "de:02:94:29:fc:d4",
+            "eth.dst.oui": "14549652",
+            "eth.addr": "de:02:94:29:fc:d4",
+            "eth.addr_resolved": "de:02:94:29:fc:d4",
+            "eth.addr.oui": "14549652",
+            "eth.dst.lg": "1",
+            "eth.lg": "1",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "8e:d5:68:dd:a2:ce",
+          "eth.src_tree": {
+            "eth.src_resolved": "8e:d5:68:dd:a2:ce",
+            "eth.src.oui": "9360744",
+            "eth.addr": "8e:d5:68:dd:a2:ce",
+            "eth.addr_resolved": "8e:d5:68:dd:a2:ce",
+            "eth.addr.oui": "9360744",
+            "eth.src.lg": "1",
+            "eth.lg": "1",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x00000806"
+        },
+        "arp": {
+          "arp.hw.type": "1",
+          "arp.proto.type": "0x00000800",
+          "arp.hw.size": "6",
+          "arp.proto.size": "4",
+          "arp.opcode": "2",
+          "arp.src.hw_mac": "8e:d5:68:dd:a2:ce",
+          "arp.src.proto_ipv4": "10.0.0.2",
+          "arp.dst.hw_mac": "de:02:94:29:fc:d4",
+          "arp.dst.proto_ipv4": "10.0.0.1"
+        }
+      }
+    }
+  }
+]
