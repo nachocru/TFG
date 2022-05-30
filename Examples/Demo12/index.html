@@ -12,6 +12,7 @@
     <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
     <script src="https://unpkg.com/aframe-event-set-component@3.0.3/dist/aframe-event-set-component.min.js"></script>
     <script src="https://unpkg.com/aframe-look-at-component@0.8.0/dist/aframe-look-at-component.min.js"></script> 
+    <script src="//cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.1/dist/aframe-extras.min.js"></script>
     <script src="index.js"></script>
     <script type="text/javascript" src="index.json"></script>
     <!-- Image link template to be reused. -->
@@ -35,12 +36,13 @@
 
         <a-entity id="escena" cursor="rayOrigin:mouse" network="filename: netgui.nkp ">
         </a-entity>
-        
-        <a-entity movement-controls="fly: true" position="0 0 0">
-            <a-camera position="0 10 45" look-controls></a-camera>
+
+        <a-entity movement-controls="fly: true">
+            <a-entity camera position="0 10 45" look-controls></a-entity>
             <a-entity cursor="rayOrigin:mouse"></a-entity>
             <a-entity laser-controls="hand: right"></a-entity>
         </a-entity>
+        
     </a-scene>
 
 </body>
