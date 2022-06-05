@@ -22,25 +22,6 @@ AFRAME.registerComponent('selector', {
             desktopElement.parentNode.removeChild(desktopElement);
             inmersiveElement.parentNode.removeChild(inmersiveElement);
 
-            let cameraEntity = document.createElement('a-entity');
-            cameraEntity.setAttribute('movement-controls', {fly: true});
-
-            let camera = document.createElement('a-entity');
-            camera.setAttribute('camera', '');
-            camera.setAttribute('position', '0 10 45');
-            camera.setAttribute('look-controls', '');
-            cameraEntity.appendChild(camera);
-
-            let cursor = document.createElement('a-entity');
-            cursor.setAttribute('cursor', {rayOrigin: 'mouse'});
-            cameraEntity.appendChild(cursor);
-
-            let controls = document.createElement('a-entity');
-            controls.setAttribute('laser-controls', {hand: 'right'});
-            cameraEntity.appendChild(controls);
-
-            scene.appendChild(cameraEntity);
-
             scene.setAttribute('network', {filename: 'netgui.nkp'});
             
         });

@@ -46,7 +46,11 @@
 
         <!-- <a-entity gltf-model="#tree" position="0 4 4" scale="10 10 10"></a-entity> -->
 
-        <a-camera id="camera" position="0 10 45">
+        <a-entity movement-controls="fly: true">
+            <a-entity camera position="0 10 45" look-controls></a-entity>
+            <a-entity cursor="rayOrigin:mouse"></a-entity>
+            <a-entity laser-controls="hand: right"></a-entity>
+        </a-entity>
 
     </a-scene>
 
